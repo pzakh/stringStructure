@@ -6,7 +6,7 @@ using namespace std;
 
 namespace StringStructure{
 
-	int StringStructure::lenght(char stringStructure[])
+	int StringStructure::length(char stringStructure[])
 	{
 		int lenght = 0;
 		for (int i = 0; stringStructure[i] != '\0'; i++)

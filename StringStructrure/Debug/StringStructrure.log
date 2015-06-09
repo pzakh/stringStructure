@@ -1,0 +1,37 @@
+﻿Build started 6/9/2015 11:48:34 PM.
+     1>Project "C:\Users\Pavel\Documents\Visual Studio 2013\Projects\stringStructure\StringStructrure\StringStructrure.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\StringStructrure.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\StringStructrure.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainClass.cpp StringStructrure.cpp
+         StringStructrure.cpp
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(1): warning C4627: '#include "StringStructure.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(2): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(9): error C2039: 'length' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(17): error C2039: 'countOfSymbolInLine' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(26): error C2039: 'writeln' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(28): error C2065: 'cout' : undeclared identifier
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(28): error C2065: 'endl' : undeclared identifier
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(31): error C2039: 'readln' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(33): error C2065: 'cin' : undeclared identifier
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(36): error C2039: 'concatination' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(50): error C2039: 'isPunct' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(52): error C3861: 'ispunct': identifier not found
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(61): error C2039: 'isNumber' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(63): error C3861: 'isdigit': identifier not found
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(73): error C2039: 'isSymbol' : is not a member of 'StringStructure'
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\stringstructrure.cpp(75): error C3861: 'isalpha': identifier not found
+         MainClass.cpp
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\mainclass.cpp(1): warning C4627: '#include "StringStructure.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\mainclass.cpp(2): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\pavel\documents\visual studio 2013\projects\stringstructure\stringstructrure\mainclass.cpp(61): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "C:\Users\Pavel\Documents\Visual Studio 2013\Projects\stringStructure\StringStructrure\StringStructrure.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.82

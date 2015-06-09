@@ -3,7 +3,7 @@ namespace StringStructure
 	class StringStructure
 	{
 	public:
-		static int lenght(char stringStructure[]);
+		static int length(char stringStructure[]);
 
 		static int countOfSymbolInLine(char stringStructure[], char symbol);
 
